@@ -445,3 +445,10 @@ Arquitectura Empresarial es una práctica profesional y la gestión emergente qu
 - AE ayuda a evaluar cómo los cambios en la estrategia será reflejan través de la empresa
 - AE puede ofrecer orientación sobre los cambios y cómo deben aplicarse
 
+# PARA RECORDAR
+
+- Un proceso de negocios es un conjunto de actividades relacionadas en forma lógica, el cual define cómo se desempeñan las tareas específicas de negocios, y representa una forma única en que una organización coordina el **trabajo, la información y el conocimiento**.
+- SI: Un conjunto integrado de personas y equipos que tiene por objetivo proveer a una organización de la información necesaria para apoyar las operaciones, la administración y la toma de decisiones.
+- Los SI automatizan partes de los procesos de negocios y pueden ayudara las organizaciones a rediseñar y hacer más eficientes estos procesos.
+- El valor de un SI depende de su eficacia, su extensión, su aceptación por parte de los que lo utilizan, su costo, la calidad de la información que trata y produce.
+- AE = E + N + T
