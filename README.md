@@ -574,3 +574,93 @@ Ayudan a la empresa:
 - Los sistemas que existen en una organización intercambian datos entre sí. Los TPS son la mayor fuente de datos para los otros sistemas, en especial para los MIS y DSS.
 - Los ERP crean una plataforma integrada de toda la organización para coordinar los procesos internos claves de la empresa.
 - Los sistemas de CRM consolidan la información de los clientes procedentes de múltiples fuentes con el propósito de que la empresa obtenga una perspectiva unificada de un cliente
+
+************
+
+<h1 align="center">CLASE 7</h1>
+
+# SOFTWARE
+
+Abreviatura **SW**, es una palabra que proviene del inglés y que da significado al soporte lógico de un sistema informático, es decir, es la parte no física que hace referencia a un programa o conjunto de programas de cómputo que incluye datos, reglas e instrucciones para poder comunicarse con la computadora y que **hacen posible su funcionamiento**.
+
+Sin **Software**, las máquinas serían inútiles, y es desarrollado mediante el uso de distintos **lenguajes de programación** que consisten en símbolos y reglas semánticas y sintácticas y que definen el significado de sus elementos y expresiones.
+
+# SAAS - Software como servicio
+El software como servicio permite a los usuarios conectarse a aplicaciones basadas en la nube a través de Internet y usarlas.
+
+## Ventajas
+- Menos inversión inicial y menos riesgo.
+- Reducción de costos. 
+- Actualizaciones y nuevas funcionalidades inmediatas.
+- Soporte más ágil y rápido.
+- Centralización de los esfuerzos de la empresa en su negocio.
+
+## Desventajas
+- Nivel de confianza bajo en la seguridad de los datos.
+- Integración con el resto de las aplicaciones locales en la empresa.
+- Necesidad de disponibilidad de los datos de la nube.
+- Sensación de cautividad del cliente.
+- Posible incumplimiento de los acuerdos sobre el nivel de servicio.
+
+# VISION GLOBAL DEL DESARROLLO DE LOS SISTEMAS
+
+| ANALISIS | DISEÑO | PROGRAMACION | PRUEBA | IMPLANTACION | PRODUCCION |
+|----------|--------|--------------|--------|--------------|-----------|
+| Definicion del problema, identificacion de la solucion, analisis de factibilidad, estimacion de esfuerzo, recursos y duracion, identificacion de riesgos y especificacion de requerimientos | + Si se trata de realizar el desarrollo: Diseño logico y fisico.<br> + Si se trata de adquisicion de sistema existente: identificacion de las partes a configurar y adaptaciones a realizar | + Si se trata de nuevo desarrollo: Codificacion del sistema.<br> + Si se trata de adquisicion de sistema existente: configuracion y parametrizacion del sistema. | Comprobacion del funcionamiento del sistema:<br> + Pruebas unitarias<br> + Prueba de sistemas<br> + Pruebas de aceptacion de usuario.<br> + Otras clases de pruebas.<br> + Capacitaciones. | Implantar el nuevo sistema.<br> Estrategias posibles:<br> + Paralela.<br> + Cambio directo.<br> + Estudio Piloto.<br> + Por fases. | Monitoreo del sistema para detectar:<br> + Errores.<br> + Modificaciones.<br> + Mejoras. |
+
+# CICLO DE VIDA TRADICIONAL
+
+| DEFINICION | ANALISIS | DISEÑO | PROGRAMACION | INSTALACION | POST-IMPLEMENTACION |
+|----------|--------|--------------|--------|--------------|-----------|
+| Foco puesto en la definicion del objetivo, alcance, la factibilidad del proyecto, la estimacion de esfuerzo, recursos y duracion, restricciones y riesgos. | Foco puesto en elaboracion de los requerimientos planteados en la etapa anterios, y en la planificacion detallada de las dos fases siguientes. | Foco puesto en la definicion de arquitectura, el diseño logico y fisico. | Foco puesto en la traduccion del diseño a codigo y en la ejecucion de pruebas unitarias y de sistemas. | Cierre del sistema:<br> + Pruebas de aceptacion de usuario.<br> + Capacitacion.<br> + Conversion. | Uso y evaluacion del sistema para determinar las necesidades de adaptacion |
+| **Plan de proyecto** | **Especif. Req. Plan Pruebas** | **Especificacion de Diseño** | **Codigo fuente y Objeto** | **Manuales, informe, prueba** | **Incidentes y nuevos requerimientos** |
+| Lider, Analista funcional, Usuario | Analista funcional, Usuario | Analista funcional y tecnico | Programador y Analista | Usuario y Analista | Usuario y Analista |
+
+# COMPRA DE LICENCIAS DE SOFTWARE
+Se respeta la etapa de Definición, Pruebas, Instalación y Post-Implementación.
+
+La etapa de Análisis incluirá la evaluación de los licencias existentes en el mercado:
+
+- Confección de la solicitud de Propuesta a Proveedores (RFP) que incluye:
+    - Requerimientos Funcionales y no funcionales a cumplir
+    - Recursos de Hardware, software, base de datos necesarios.
+    - Esfuerzo de customización, instalación, capacitación y mantenimiento
+    - Documentación a entregar
+    - Calidad del proveedor
+    - Costo del producto y trabajo.
+    - Términos del contrato.
+- Recepción de las propuestas de los proveedores
+- Confección de Matriz de Evaluación de Proveedores.
+- Selección del proveedor/producto.
+- Contratación del mismo.
+
+El Diseño tratará de amoldar los requerimientos del usuario a las características del paquete.
+
+# DESARROLO POR USUARIOS FINALES
+- No se utilizan pasos predefinidos.
+- El desarrollo lo hace el usuario final que conoce la herramienta a utilizar.
+- Se trabaja con Generación herramientas de cuarta generacion (T4G).
+- Ahorro de tiempo de respuesta a los requerimientos.
+- La administración debería controlar este tipo de desarrollo para su posterior administración y mantenimiento:
+    - Requiriendo justificación económica para su realización.
+    - Estableciendo hardware y software posibles de utilizar así como normas de calidad necesarias de cumplir.
+    - Proporcionando apoyo técnico y capacitación para este tipo de desarrollo.
+
+# TERCERIZACION O SUBCONTRATACION (OUTSOURCING):
+Proceso mediante el cual una firma identifica alguna porción, o área de negocio que podría ser desempeñada más eficientemente y/o más efectivamente por otra corporación, la cual es contratada para desarrollarla.
+
+**Su principal objetivo**: concentrar los esfuerzos de una compañía en las actividades esenciales del negocio, a fin de:
+- Otorgar valor agregado a los clientes mediante agilidad y  portunidad en el manejo de los procesos transferidos.
+- Reducir los tiempos de procesamiento.
+- Reducir costos y personal permanente.
+- Potencializar los talentos humanos.
+
+# PARA RECORDAR
+
+| ENFOQUE | USO | CARACTERISTICAS |
+|---------|-----|-----------------|
+| CICLO DE VIDA TRADICIONAL | Sistemas complejos medianos o grandes.<br> Requerimientos claros, predefinidos y congelados en la etapa de Análisis | + Divide el desarrollo en fases formales secuenciales.<br> + Documentación por fases.<br> + Desalienta cambios.<br> + Costoso, lento e inflexible. |
+| PROTOTIPOS | Incertidumbre en requerimientos | + Gran participación del usuario.<br> + Proceso iterativo.<br> + Construcción rápida y económica. <br> + Puede omitir pasos esenciales.<br>  + Puede no servir para escalar el sistema. |
+| LICENCIAS DE SOFTWARE | Como apoyo de procesos universales y estandarizados | + Ahorro de tiempo y costo en diseño y construcción.<br> + Mantenimiento y mejoras a cargo del proveedor.<br> + Tener especial atención en la cantidad de requerimientos únicos a implementar. |
+| DESARROLLO POR USUARIOS FINALES | Como resolucion de requerimientos simples (sobre todo reportes) | + Mayor involucramiento y satisfacción del usuario.<br> + Rápido e Informal.<br> + Ahorra tiempos y costos.<br> + Riesgos en el control/administración del sistema y en la falta de documentación del mismo. |
+| TERCERIALIZACION (OUTSOURCING) | Para casos en los que otra organización sea mas eficiente o se requieran servicios complejos para implementar. | + Agilidad.<br> + Reducción de costos y personal permanente.<br> + Perdida del control de los sistemas de la empresa. |
