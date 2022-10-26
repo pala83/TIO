@@ -452,3 +452,125 @@ Arquitectura Empresarial es una práctica profesional y la gestión emergente qu
 - Los SI automatizan partes de los procesos de negocios y pueden ayudara las organizaciones a rediseñar y hacer más eficientes estos procesos.
 - El valor de un SI depende de su eficacia, su extensión, su aceptación por parte de los que lo utilizan, su costo, la calidad de la información que trata y produce.
 - AE = E + N + T
+
+************
+
+<h1 align="center">CLASE 6</h1>
+
+# TOMA DE DESICIONES
+- Toma de desiciones estrategica.
+- Control administrativo.
+- Toma de desiciones a nivel del conocimiento.
+- Control operativo.
+- **Desiciones**:
+    - Estructuradas
+    - Semiestructuradas
+    - No estructuradas
+
+## Ejemplos
+| GERENCIA | CARACTERISTICAS DE DESICION | EJEMPLOS DE DECISION |
+|----------|-----------------------------|----------------------|
+| Gerencia de nivel superior | No estructuradas | + Decidir entrar o salir de los mercados<br> + Aprobar presupuesto de capital<br> + Decidir objetivos en el largo plazo |
+| Gerencia de nivel medio | Semiestructuradas | + Diseñar un plan de marketing<br> + Desarrollar un presupuesto departamental<br> + Diseñar un nuevo sitio Web corporativo |
+| Gerencia operacional, EMpleados y equipos individuales | Estructuradas | + Determinar elegibilidad de tiempo extra<br> + Reabastecer inventario<br> + Ofrecer credito a los clientes<br> + Determinar ofertas especiales para los clientes |
+
+# PRINCIPALES TIPOS DE S.I.
+
+Sistemas de Apoyo a la Alta Dirección (**ESS: Executive Support Systems**)
+
+Sistemas de Información para la Gestión (**MIS: Management Information Systems**)
+
+Sistemas de Apoyo a la toma de Decisiones (**DSS: Decision Support Systems**)
+
+Sistemas de Trabajo del Conocimiento (**KWS: Knowledge Work Systems**)
+
+Sistemas de Automatización Oficinas (**OAS: Office Automation Systems**)
+
+Sistemas de Proceso de Transacciones (**TPS: Transaction Processing Systems**)
+
+| TIPO DE S.I. | NIVEL |
+|--------------|-------|
+| ESS          | **Sistema de Nivel Estrategico**<br>Prevision de ventas, Planificacion estrategica |
+| MIS DSS      | **Sistema de Nivel Tactico**<br>Programacion de la produccion, Presupuesto anual |
+| KWS OAS      | **Sistema de Nivel de Conocimiento**<br>Ingenieria, Documentacion, Agenda electronica |
+| TPS          | **Sistemas de Nivel Operativo**<br>Ordenes de pedido, Nomina, Facturacion |
+
+# SISTEMAS PARA LA INTEGRACION DE PROCESOS EN LA ORGANIZACION
+Consiste de:
+- Sistemas empresariales (ERP)
+- Sistemas de administración de la cadena de suministro (SCM)
+- Sistemas para la administración de las relaciones con el cliente (CRM)
+- Sistemas de administración del conocimiento
+
+# SISTEMAS EMPRESARIALES
+
+Sistemas empresariales, también conocidos como sistemas de gestión de recursos empresariales (ERP), proporcionan un solo sistema de información para la coordinación e integración de los procesos de negocio clave de toda la organización.
+
+La información que antes se encontraba fragmentada en diferentes sistemas puede ahora fluir con libertad a través de la empresa de modo que la puedan compartir los proceso de negocio que se realizan en las áreas de manufactura, contabilidad, recursos humanos y otras mas.
+
+## Beneficios de los sistemas empresariales
+
+- Ayudan a unificar la estructura y organización de la empresa
+- Administración: Administración de los procesos basados en conocimiento a través de toda la empresa
+- Tecnología: Plataforma unificada 
+- Negocio: Operaciones y procesos de negocio orientados al cliente más eficientes
+
+## Retos de los sistemas empresariales
+
+- Difíciles de construir: Requieren cambios fundamentales en la forma de operar los negocios
+- Tecnología: Requiere piezas complejas de software y largas inversiones de tiempo, dinero y experiencia
+- Coordinación y toma de decisiones organizacional centralizada: Puede no ser la mejor forma de operar para las empresas
+
+# ERP - sistema de planificacion de recursos empresariales
+## Es:
+- Sistema integrado de trabajo.
+- Procesos + personas + tecnologias.
+- Herramienta de cambio
+## No es:
+- un paquete de sofware para simplificar el trabajo y reducir personal.
+
+## Beneficios:
+- Toma decisiones
+- Timepos respuesta
+- Fiabilidad
+- Adaptacion
+- Escalabilidad
+- Seguridad
+- Costos
+
+# SCM - sistema de gestion de cadena de suministro
+Ayudan a la empresa:
+- Decidir cuando y que producir, almacenar y desplazar 
+- Comunicar pedidos rápidamente
+- Seguir el estado de los pedidos
+- Verificar la disponibilidad del inventario y supervisar niveles de inventario
+## Gestion de la cadena de abastecimiento
+- Enlace y coordinación cercana de las actividades involucradas en la compra, elaboración y desplazamiento de un producto
+- Integra los tiempos logísticos del proveedor, fabricante,  distribuidor y clientes
+- Reduce los tiempos, el esfuerzo redundante y los costos de inventario
+- Red de organizaciones y procesos de negocio
+
+## Gestion de la cadena de suministro
+- Ayudan en compras de materiales, transformación de materias primas en productos intermedios y finales
+- Ayudan en la distribución de los productos terminados hacia los clientes
+- Incluye logística reversa – flujo de productos devueltos en dirección contraria desde el comprador hacia el vendedor
+
+# CRM - Sistema de gestion de las relaciones con el cliente
+- Maneja todas las formas usadas por la empresa para tratar a los clientes existentes y potenciales
+- Disciplina de negocios y de tecnología
+- Utiliza los sistemas de información para coordinar todos los procesos de negocio de la empresa
+- Proporciona cuidado del cliente de inicio a fin
+- Proporciona una vista unificada del cliente a través de la compañía
+- Consolida los datos de los clientes de múltiples fuentes y proporciona herramientas analíticas para dar respuesta a interrogantes
+
+## Sistema de administracion del conocimiento
+- Colecciona conocimiento relevante y los pone disponibles donde y cuando sea necesitado
+- Apoya los procesos de negocio y las decisiones administrativas
+- También enlaza a la empresa a fuentes externas de conocimiento
+- Apoya procesos para la adquisición, almacenamiento, distribución y aplicación de conocimiento
+
+# PARA RECORDAR
+
+- Los sistemas que existen en una organización intercambian datos entre sí. Los TPS son la mayor fuente de datos para los otros sistemas, en especial para los MIS y DSS.
+- Los ERP crean una plataforma integrada de toda la organización para coordinar los procesos internos claves de la empresa.
+- Los sistemas de CRM consolidan la información de los clientes procedentes de múltiples fuentes con el propósito de que la empresa obtenga una perspectiva unificada de un cliente
