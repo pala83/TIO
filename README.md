@@ -664,3 +664,154 @@ Proceso mediante el cual una firma identifica alguna porción, o área de negoci
 | LICENCIAS DE SOFTWARE | Como apoyo de procesos universales y estandarizados | + Ahorro de tiempo y costo en diseño y construcción.<br> + Mantenimiento y mejoras a cargo del proveedor.<br> + Tener especial atención en la cantidad de requerimientos únicos a implementar. |
 | DESARROLLO POR USUARIOS FINALES | Como resolucion de requerimientos simples (sobre todo reportes) | + Mayor involucramiento y satisfacción del usuario.<br> + Rápido e Informal.<br> + Ahorra tiempos y costos.<br> + Riesgos en el control/administración del sistema y en la falta de documentación del mismo. |
 | TERCERIALIZACION (OUTSOURCING) | Para casos en los que otra organización sea mas eficiente o se requieran servicios complejos para implementar. | + Agilidad.<br> + Reducción de costos y personal permanente.<br> + Perdida del control de los sistemas de la empresa. |
+
+************
+
+<h1 align="center">CLASE 8</h1>
+
+# METODOLOGIAS Y HERRAMIENTAS PAR AEL DESARROLLO DE SISTEMAS
+
+**Metodologia**: conjunto de metodos que se utilizan para cubrir las actividades de un proceso determinado.
+
+**Metodologia de desarrollo de sistemas**: Conjunto de metodos que brindan soporte a cada una de las actividades dentro de las fases de un proyecto de sistemas.
+- Metodologias estructuradas.
+- RUP (Rational unified process)
+- Desarrollo orientado a objetos
+- Metodos agiles
+- Reingenieria del software
+
+# METODOLOGIAS AGILES
+
+- Proceso de Creación de Sistemas funcionales en tiempo muy corto.
+- Proceso no secuencial. Partes clave del desarrollo se realizan en paralelo.
+- Utilizadas para el enfoque de prototipos y con herramientas de cuarta generación.
+- Colaboración estrecha entre usuarios y especialistas de sistemas.
+- No se genera casi documentación. 
+- Técnicas utilizables: diseño conjunto de aplicaciones (Joint Application Design –JAD-, Scrum, XP).
+
+# RUP(RATIONAL UNIFIED PROCESS)
+
+- Metodología que divide el proceso en 4 fases:
+    1. Inicio,
+    2. Elaboración,
+    3. Construcción
+    4. Transición.
+- Utilizable para cualquier tipo de proyecto. Cada fase tiene sus actividades asociadas
+- Metodología iterativa con desarrollo incremental o en cascada
+- La documentación se basa en ciertos diagramas y para esto, utiliza el UML. Ejemplos de diagramas:
+-  Para el análisis: Casos de Uso, Diagramas de estados –
+-  Para el diseño: Diagramas de clase, Diagramas de componentes, Diagrama de comunicaciones, etc.)
+
+# DESARROLLO ORIENTADO A OBJETOS
+
+Objeto como unidad básica que encapsula sus datos y acciones que se pueden realizar sobre los mismos. Los objetos se relacionan entre si.
+
+Los objetos tienen la característica que son reutilizables, se agrupan en clases y utilizan herencia.
+
+Utilizado para enfoque híbrido entre ciclo de vida tradicional y prototipos
+
+Desarrollo de frameworks
+- Reusabilidad
+
+# REINGENIERIA DE SOFTWARE
+
+Metodología que ataca el problema del envejecimiento del software reciclándolo.
+
+Se utiliza la reingeniería para extraer la información de diseño y programación de los sistemas existentes siguiendo los pasos:
+1. Ingeniería inversa 
+2. Modificación del diseño y especificaciones de programa
+3. Ingeniería hacia adelante
+
+# TENDENCIAS ACTUALES
+
+Las condiciones del entorno actual (globalización, negocios en línea, mercado cambiante) demandan:
+1. Componentes de software fáciles de agregar, modificar, reemplazar o reconfigurar (sistemas flexibles).
+2. Sistemas escalables.
+3. Conectividad con múltiples plataformas. Sistemas posibles de instalar/correr en ambientes diversos.
+4. Cloud computing
+
+Las organizaciones adoptan procesos de desarrollo más cortos para aplicaciones a compartir conproveedores, clientes y/o socios de negocios que proporcionen soluciones rápidas y no desestabilicen sus sistemas de procesamiento de transacciones y bases de datos organizacionales esenciales.
+
+# CADENA DE VALOR EN EL DESARROLLO DE SISTEMAS
+
+1. La aplicacion de una **METODOLOGIA**
+2. **ESTANDARIZA** el proceso
+3. **DEFINE** roles y responsabilidades
+4. **AUMENTA** productividad
+5. Satisface de mejor manera al **USUARIO**
+
+# ÉXITO Y FRACASO DE LOS SISTEMAS DE INFORMACIÓN
+
+**Los proyectos de Desarrollo de sistemas fracasan por**:
+- Mayores costos de lo previsto  Costos y Recursos
+- No terminan en el tiempo estimado  Tiempos
+- No son operables  Alcance.
+**Principales áreas de problemas (origen en factores de organización)**:
+- Diseño no compatible con la estructura, cultura y metas de la organización.
+- Datos: Información ambigua, errónea, desglosada indebidamente o incompleta.
+- Costos: Los gastos excesivos no pueden justificarse con el valor que el sistema proporciona al negocio.
+- Operaciones: Información que no se proporciona en forma oportuna o eficiente por fallas en el procesamiento de la misma.
+
+# GESTION Y CONFIGURACION DE SOFTWARE
+
+Se refiere a las prácticas y herramientas transversales al desarrollo de software (a los requerimientos o el diseño en sí del programa), para atacar incumbencias como la:
+- Trazabilidad
+    1. Gestión de Versiones
+    2. Gestión de Cambios
+    3. Gestión de Requerimientos
+    4. Gestión de Incidencias.
+- Reproducibilidad de raleases
+- Comunicación
+- Interacción, coordinación e integración del trabajo de los diferentes miembros del equipo
+
+# SISTEMA DE VERSIONADO DE CODIGO
+
+Un Sistema de Versionado de Código (SVC) nos permite **compartir el código** fuente de nuestros desarrollos y a la vez **mantener un registro de los cambios** por los que va pasando.
+
+En general va a ser la herramienta más importante y fundamental dentro del desarrollo. Veremos que también vamos a tener otras herramientas para publicar releases, documentación, para integración y control de calidad, pero todo va a depender de la herramienta SVC.
+
+Si se pierden los releases, más allá de ser un inconveniente, se puede salvar en base al SVC.
+
+Se basan en versionar archivos y carpetas (repositorio)
+
+Los desarrolladores utilizan un programa **cliente** que permite una serie de operaciones básicas:
+- obtener una copia local de repositorio
+- publicar cambios a un repositorio 
+
+Otras funciones:
+- revisar los cambios
+- obtener una copia de una revisión en particular
+- deshacer cambios.
+- marcar (taggear) una revisión
+- ver quién, por qué y cuándo modifico cierto archivo/carpeta
+
+Estas operaciones dependen un poco del tipo de SCV que estemos utilizando.
+
+## Tipos de versionadores de codigo
+
+Sistemas Centralizados: Son los más "tradicionales", por ejemplo SVN, CVS, etc.
+
+Sistemas Distribuidos (o descentralizados): son los que están en auge actualmente como: Git, Mercurial, Bazaar, etc
+
+# PARA RECORDAR
+Software como producto/servicio
+
+Creación de sistemas:
+- Tradicional
+- Prototipos
+- Desarrollo por usuarios finales
+- Compra de licencias
+- Terciarización
+
+Metodologias de desarrollo:
+- Metodologías Estructuradas
+- RUP (Rational Unified Process)
+- Desarrollo orientado a Objetos
+- Métodos Agiles
+- Reingeniería del Software
+
+Trazabilidad:
+- Gestión de Versiones
+- Gestión de Cambios
+- Gestión de Requerimientos
+- Gestión de Incidencias
