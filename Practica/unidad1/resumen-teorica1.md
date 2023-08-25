@@ -4,12 +4,13 @@
 #### Clase 1: Git
 - Teoria
 - Comandos vistos:
-  - #git status
-  - #git add [opciones]
-  - #git commit -m "mensaje"
-  - #git log
-  - #git diff [archivo] [hash de commit anterior]
-  - #git diff HEAD ~HEAD:[numero de versiones atras de la actual]
+    - #git status
+    - #git add [opciones]
+    - #git commit -m "mensaje"
+    - #git log
+    - #git diff [archivo] [hash de commit anterior]
+    - #git diff branch1..branch2
+        - #git diff HEAD..HEAD~1
 
 #### Comandos de configuracion Git
   - #git config --global user.name "nombre de usuario"
